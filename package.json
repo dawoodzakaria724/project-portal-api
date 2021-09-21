@@ -1,0 +1,32 @@
+{
+  "name": "nodeauthapi",
+  "version": "1.0.0",
+  "description": "JWT example",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "pretty": "prettier --write --arrow-parens avoid --trailing-comma none --single-quote --print-width 120 **/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.6",
+    "aws-sdk": "^2.938.0",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "image-resize": "^1.1.5",
+    "jimp": "^0.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.0",
+    "prettier": "^2.3.2",
+    "ts-md5": "^1.2.8",
+    "uuid": "^8.3.2"
+  }
+}
